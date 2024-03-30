@@ -1,0 +1,70 @@
+.wrapper {
+    display: grid;
+    margin: 50px 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.positions {
+    color: rgb(13, 19, 23);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -3%;
+    text-align: left;
+    margin: 50px 0;
+    margin-top: 80px;
+}
+
+.card__content {
+    width: 400px;
+    height: 181px;
+    border-radius: 20px;
+    background: rgba(193, 228, 255, 0.3);
+}
+
+.card__content h3 {
+    width: 350px;
+    height: 30px;
+    margin-top: 32px;
+    margin-left: 40px;
+    color: rgb(13, 19, 23);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -3%;
+    text-align: left;
+}
+
+.card__content h4 {
+    color: rgb(57, 65, 73);
+    font-family: Poppins;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.card__content button {
+    color: rgb(245, 138, 7);
+    font-family: Poppins;
+    margin-top: 32px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-align: left;
+    background: transparent;
+    transition: .5s;
+}
+
+.card__content button:hover {
+    box-shadow: 0 1px 0 rgb(245, 138, 7);
+}

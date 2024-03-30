@@ -1,0 +1,79 @@
+.conten {
+    position: absolute;
+    width: 1920px;
+    height: 809px;
+    left: 0;
+    right: 0;
+    background: rgb(220, 234, 245);
+}
+
+.conten h2 {
+    width: 503px;
+    height: 56px;
+    color: rgb(13, 19, 23);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -3%;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: -190px;
+    text-transform: capitalize;
+}
+
+.sviper {
+    display: flex;
+    gap: 40px;
+    margin-left: -190px;
+}
+
+.cardd {
+    width: 400px;
+    margin: 50px 0;
+}
+
+.cardd__bootm {
+    width: 400px;
+    height: 277px;
+    margin-top: -10px;
+    border-radius: 0px 0px 20px 20px;
+    background: #fff;
+}
+
+.cardd h4 {
+    color: rgb(13, 19, 23);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -3%;
+    padding: 0 32px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.cardd p {
+    color: rgb(91, 91, 91);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding: 0 32px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.cardd button {
+    color: rgb(245, 138, 7);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 106.5%;
+    letter-spacing: 0px;
+    text-align: left;
+    background: transparent;
+    margin-top: 25px;
+    margin-left: 32px;
+}
